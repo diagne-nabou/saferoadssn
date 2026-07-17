@@ -1,0 +1,10 @@
+{
+  "model": "DBSCAN",
+  "task": "clustering",
+  "eps_km": 1.0,
+  "min_samples": 5,
+  "n_clusters": 6,
+  "n_noise": 314,
+  "n_points": 387,
+  "trained_at": "2026-04-09T11:26:38.274320"
+}

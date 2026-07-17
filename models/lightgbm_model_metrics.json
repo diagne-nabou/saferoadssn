@@ -1,0 +1,30 @@
+{
+  "model": "LGBMClassifier",
+  "task": "classification",
+  "target": "gravity",
+  "n_train": 309,
+  "n_test": 78,
+  "n_features": 29,
+  "accuracy": 0.5769,
+  "f1_weighted": 0.5689,
+  "cv_mean": 0.5605,
+  "cv_std": 0.0394,
+  "confusion_matrix": [
+    [
+      13,
+      0,
+      12
+    ],
+    [
+      2,
+      0,
+      3
+    ],
+    [
+      14,
+      2,
+      32
+    ]
+  ],
+  "trained_at": "2026-04-09T11:26:10.220778"
+}

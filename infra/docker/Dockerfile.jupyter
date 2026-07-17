@@ -1,0 +1,12 @@
+FROM jupyter/scipy-notebook:python-3.11
+
+USER root
+RUN apt-get update && apt-get install -y \
+    libgeos-dev libproj-dev gdal-bin \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY requirements.txt /tmp/
+RUN pip install --no-cache-dir -r /tmp/requirements.txt
+
+USER jovyan
+WORKDIR /home/jovyan/work

@@ -1,0 +1,23 @@
+{
+  "model": "XGBoost_Binary",
+  "task": "binary_classification",
+  "target": "mortel_vs_non",
+  "n_train": 309,
+  "n_test": 78,
+  "n_features": 29,
+  "accuracy": 0.641,
+  "f1_weighted": 0.6454,
+  "cv_mean": 0.6741,
+  "cv_std": 0.0477,
+  "confusion_matrix": [
+    [
+      19,
+      11
+    ],
+    [
+      17,
+      31
+    ]
+  ],
+  "trained_at": "2026-04-09T11:26:35.449319"
+}

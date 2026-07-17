@@ -1,0 +1,14 @@
+{
+  "model": "RandomForestRegressor",
+  "task": "regression",
+  "target": "risk_score",
+  "n_train": 309,
+  "n_test": 78,
+  "n_features": 29,
+  "r2": 0.26,
+  "mae": 16.52,
+  "rmse": 18.06,
+  "cv_r2_mean": -0.141,
+  "cv_r2_std": 0.2696,
+  "trained_at": "2026-04-09T11:26:36.983512"
+}

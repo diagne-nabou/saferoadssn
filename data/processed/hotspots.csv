@@ -1,0 +1,7 @@
+cluster_id,center_lat,center_lon,accident_count,avg_gravity,risk_score,risk_level,region
+1,14.8611,-15.8652,8,2.75,38.7,moyen,Diourbel
+3,14.70062,-17.45069,38,2.26,36.8,moyen,Dakar
+2,14.86736,-15.90055,5,2.6,35.4,moyen,Diourbel
+0,14.80641,-16.91262,7,2.43,31.4,moyen,Thies
+4,14.1516,-16.05212,6,2.0,23.3,faible,Kaolack
+5,14.67063,-17.4566,9,1.89,21.8,faible,Dakar

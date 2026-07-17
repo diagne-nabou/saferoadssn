@@ -1,0 +1,30 @@
+{
+  "model": "XGBClassifier",
+  "task": "classification",
+  "target": "gravity",
+  "n_train": 309,
+  "n_test": 78,
+  "n_features": 29,
+  "accuracy": 0.6538,
+  "f1_weighted": 0.6541,
+  "cv_mean": 0.656,
+  "cv_std": 0.0577,
+  "confusion_matrix": [
+    [
+      16,
+      0,
+      9
+    ],
+    [
+      2,
+      1,
+      2
+    ],
+    [
+      11,
+      3,
+      34
+    ]
+  ],
+  "trained_at": "2026-04-09T11:26:03.854022"
+}

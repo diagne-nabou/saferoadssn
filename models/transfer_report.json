@@ -1,0 +1,48 @@
+{
+  "started_at": "2026-04-09T11:27:23.962002",
+  "phase1": {
+    "phase": 1,
+    "domain": "global",
+    "n_samples": 5000,
+    "n_features": 25,
+    "accuracy": 0.407,
+    "f1_weighted": 0.414
+  },
+  "phase2": {
+    "phase": 2,
+    "domain": "senegal",
+    "strategy": "feature_augmentation",
+    "n_samples": 387,
+    "n_features": 39,
+    "accuracy": 0.8846,
+    "f1_weighted": 0.8554,
+    "cv_mean": 0.8217,
+    "source_accuracy": 0.407,
+    "gain": 0.4776
+  },
+  "evaluation": {
+    "source": {
+      "accuracy": 0.2222,
+      "f1_weighted": 0.1376,
+      "domain": "global",
+      "strategy": "\u2014"
+    },
+    "transfer": {
+      "accuracy": 0.9573,
+      "f1_weighted": 0.9522,
+      "domain": "senegal_transfer",
+      "strategy": "feature_augmentation"
+    },
+    "finetuned": {
+      "accuracy": 0.7265,
+      "f1_weighted": 0.7367,
+      "domain": "unknown",
+      "strategy": "\u2014"
+    },
+    "gain": {
+      "accuracy": 0.5043,
+      "f1_weighted": 0.5991
+    }
+  },
+  "completed_at": "2026-04-09T11:27:29.018743"
+}

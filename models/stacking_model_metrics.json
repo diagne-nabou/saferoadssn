@@ -1,0 +1,30 @@
+{
+  "model": "StackingClassifier",
+  "task": "classification",
+  "target": "gravity",
+  "n_train": 309,
+  "n_test": 78,
+  "n_features": 29,
+  "accuracy": 0.5769,
+  "f1_weighted": 0.6005,
+  "cv_mean": 0.4473,
+  "cv_std": 0.0752,
+  "confusion_matrix": [
+    [
+      14,
+      3,
+      8
+    ],
+    [
+      1,
+      2,
+      2
+    ],
+    [
+      11,
+      8,
+      29
+    ]
+  ],
+  "trained_at": "2026-04-09T11:26:35.010565"
+}

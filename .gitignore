@@ -1,0 +1,24 @@
+# Secrets
+.env
+*.key
+credentials.json
+
+# Claude
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+# Générateurs de soutenance (hors repo vitrine)
+generate_pptx.py
+generate_pptx_v2.py
